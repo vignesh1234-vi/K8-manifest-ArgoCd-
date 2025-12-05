@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webappport
-        image: 757884822814.dkr.ecr.ap-south-1.amazonaws.com/webappport:v1.0.0
+        image: 757884822814.dkr.ecr.ap-south-1.amazonaws.com/webappport:latest
         ports:
         - containerPort: 80
 
