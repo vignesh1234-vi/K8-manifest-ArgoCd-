@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webappport
+  labels:
+    app.kubernetes.io/managed-by: argocd
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webappport
+  template:
+    metadata:
+      labels:
+        app: webappport
+    spec:
+      containers:
+      - name: webappport
+        image: 757884822814.dkr.ecr.ap-south-1.amazonaws.com/webappport:v1.0.0
+        ports:
+        - containerPort: 80
+
