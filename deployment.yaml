@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: webappport
-        image: 757884822814.dkr.ecr.ap-south-1.amazonaws.com/webappport:latest
+        image: vigneshlucky000/zomato-clone:latest
         ports:
         - containerPort: 80
-
