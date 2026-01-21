@@ -1,3 +1,4 @@
+# I'm doing this to check alert is working or not which i hv recently created using prometheus rule alertmanager 
 apiVersion: apps/v1
 kind: Deployment
 metadata:
