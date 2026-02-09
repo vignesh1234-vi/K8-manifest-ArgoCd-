@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webappport
-        image: vigneshlucky000/zomato-clone:4
+        image: vigneshlucky000/zomato-clone:5
         ports:
         - containerPort: 80
 #
