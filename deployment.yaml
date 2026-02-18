@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/managed-by: argocd
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: webappport
